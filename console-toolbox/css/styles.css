@@ -1,0 +1,63 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.font-fira {
+  font-family: 'Fira Code', monospace;
+}
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  max-height: 350px;
+}
+
+.console-output {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: 290px;
+  overflow-y: auto;
+}
+
+.console-log {
+  color: #d4d4d4;
+}
+
+.console-warn {
+  color: #ffd700;
+  border-left: 2px solid #ffd700;
+  padding-left: 0.75rem;
+}
+
+.console-error {
+  color: #f47b7b;
+  border-left: 2px solid #f47b7b;
+  padding-left: 0.75rem;
+}
+
+.console-info {
+  color: #60a5fa;
+}
+
+.console-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.console-table th,
+.console-table td {
+  border: 1px solid #4a4a4a;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.console-table th {
+  background-color: #333;
+}

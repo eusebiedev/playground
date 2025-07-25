@@ -1,0 +1,38 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+.env
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs and testing
+*.log
+coverage/
+jest-test-results.json
+
+# Editor configs
+.vscode/
+*.code-workspace
+
+# System or temp files
+*.bak
+*.swp
+*.tmp
+*.temp.*
+*.local.*
+
+# JetBrains IDEs
+.idea/
+
+# Misc
+.cache/
+*.tgz

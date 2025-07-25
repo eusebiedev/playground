@@ -1,0 +1,67 @@
+{
+  "log": {
+    "name": "console.log()",
+    "useCase": "The most common method for outputting information to the console. Use for displaying variable values, tracking code execution flow, and simple debugging messages.",
+    "syntax": "console.log(message, [optionalParams])"
+  },
+  "warn": {
+    "name": "console.warn()",
+    "useCase": "Outputs a warning message. Often styled with a yellow background by browsers. Use for notifying about potential issues, deprecations, or non-critical errors.",
+    "syntax": "console.warn(message, [optionalParams])"
+  },
+  "error": {
+    "name": "console.error()",
+    "useCase": "Outputs an error message. Typically styled with a red background and includes a stack trace. Use for indicating critical errors or exceptions.",
+    "syntax": "console.error(message, [optionalParams])"
+  },
+  "info": {
+    "name": "console.info()",
+    "useCase": "Outputs an informational message. Similar to `log`, but semantically distinct for general information.",
+    "syntax": "console.info(message, [optionalParams])"
+  },
+  "debug": {
+    "name": "console.debug()",
+    "useCase": "Similar to `console.log()`, but often hidden by default or styled differently in developer tools. Useful for very verbose, low-level debugging information.",
+    "syntax": "console.debug(message, [optionalParams])"
+  },
+  "clear": {
+    "name": "console.clear()",
+    "useCase": "Clears the entire console output, removing all previous messages. Very useful for decluttering the console during active debugging sessions.",
+    "syntax": "console.clear()"
+  },
+  "table": {
+    "name": "console.table()",
+    "useCase": "Displays data (arrays or objects) in a tabular format, making it easier to read structured data.",
+    "syntax": "console.table(data, [columns])"
+  },
+  "dir": {
+    "name": "console.dir()",
+    "useCase": "Displays an interactive listing of the properties of a specified JavaScript object. Provides a more detailed, object-oriented view than `log`.",
+    "syntax": "console.dir(object)"
+  },
+  "count": {
+    "name": "console.count()",
+    "useCase": "Logs the number of times that `count()` has been called with the same label. Useful for tracking function calls or loop iterations.",
+    "syntax": "console.count([label])"
+  },
+  "time": {
+    "name": "console.time() & timeEnd()",
+    "useCase": "Starts a timer to track the duration of an operation. `timeEnd()` stops the timer and logs the elapsed time.",
+    "syntax": "console.time([label]) ... console.timeEnd([label])"
+  },
+  "trace": {
+    "name": "console.trace()",
+    "useCase": "Outputs a stack trace from the point where it was called. Helps understand the call stack leading to a specific point in your code.",
+    "syntax": "console.trace([message])"
+  },
+  "group": {
+    "name": "console.group() & groupEnd()",
+    "useCase": "Groups subsequent console messages together visually into a collapsible block. `groupCollapsed()` starts the group in a collapsed state.",
+    "syntax": "console.group([label]) ... console.groupEnd()"
+  },
+  "assert": {
+    "name": "console.assert()",
+    "useCase": "Logs a message and stack trace if the first argument (assertion) is `false`. It does nothing if the assertion is `true`.",
+    "syntax": "console.assert(assertion, message)"
+  }
+}
