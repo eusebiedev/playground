@@ -1,4 +1,4 @@
-# 🛠️ Developer Playground
+# 🛠️ Developer Playground - Github Pages hosting coming soon!
 
 A personal interactive learning space made up of small web apps, creative tools, and fun experiments.
 
