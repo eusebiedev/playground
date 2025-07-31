@@ -1,4 +1,6 @@
-# 🛠️ Developer Playground - Github Pages hosting coming soon!
+# 🛠️ Developer Playground 
+
+🚀 **Live Demo**: [View App](https://eusebiedev.github.io/playground/)
 
 A personal interactive learning space made up of small web apps, creative tools, and fun experiments.
 
