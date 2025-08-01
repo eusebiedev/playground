@@ -6,6 +6,10 @@ A personal interactive learning space made up of small web apps, creative tools,
 
 This project is all about **knowledge reinforcement**, **core frontend skills**, and **creative exploration**. Each mini-project helps me deepen my understanding of development topics through hands-on building, iteration, and play.
 
+## 🖼️
+
+![Screenshot of Playground App](./screenshot.png)
+
 ## 🔍 What You'll Find
 
 - 🧠 Interactive dev tools and UI experiments  
